@@ -1,6 +1,24 @@
 [project]
-name = "placeholder"
+name = "python-lib-issues-6-demo-2"
 version = "0.1"
+description = "null"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{name = "Simon Willison"}]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+
+]
+
+[project.urls]
+Homepage = "https://github.com/simonw/python-lib-issues-6-demo-2"
+Changelog = "https://github.com/simonw/python-lib-issues-6-demo-2/releases"
+Issues = "https://github.com/simonw/python-lib-issues-6-demo-2/issues"
+CI = "https://github.com/simonw/python-lib-issues-6-demo-2/actions"
+
 
 [project.optional-dependencies]
 test = ["pytest"]
